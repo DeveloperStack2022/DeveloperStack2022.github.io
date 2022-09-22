@@ -12,7 +12,7 @@
 
         <title>Responsive resume cv</title>
     </head>
-    <body  >
+    <body class="scale-cv"  >
         <!--========== HEADER ==========-->
         <header class="l-header" id="header">
             <nav class="nav bd-container">
@@ -71,16 +71,17 @@
                     <section class="home" id="home">
                         <div class="home__container section bd-grid">
                             <div class="home__data bd-grid">
-                                <img src="/assets/img/perfil.jpg" class="home__img" alt="perfil">
+                                <i class='bx bx-user-circle home__user' ></i>
+                                <!-- <img src="/assets/img/perfil.jpg" class="home__img" alt="perfil"> -->
                                 <h1 class="home__title">Luis Zapata</h1>
                                 <h3 class="home__profession">web developer full stack</h3>
                                 <!-- Button to generate and download the pdf. Available for desktop. -->
                                 <div>
-                                    <a download class="home__button-movil" href="">Download</a>
+                                    <a download class="home__button-movil"  href="">Download</a>
                                 </div>
                             </div>
                             <div class="home__address bd-grid">
-                                <span class="home__information">  <i class='bx bx-map home__icon'></i> Av. Tsafiqui  </span>
+                                <span class="home__information">  <i class='bx bx-map home__icon'></i> Av. Los Colonos Sect. Colg. Kolping</span>
                                 <span class="home__information"> <i class='bx bx-envelope email__icon' ></i>jlzyjose@gmail.com</span>
                                 <span class="home__information"> <i class='bx bx-phone phone__icon' ></i>+593 939098050</span>
                             </div>
@@ -149,23 +150,19 @@
                             <ul class="skills__data">
                                 <li class="skills__name">
                                     <span class="skills__circle"></span>Html 5
-                                    
-                                   
                                 </li>
                                 <li class="skills__name">
                                     <span class="skills__circle"></span>javascript
                                 </li>
                                 <li class="skills__name">
-                                    
-                                    <span class="skills__circle"></span>css 3
-                                   
+                                    <span class="skills__circle"></span>css 3   
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Reactjs (tsx)
                                 </li>
                                
                             </ul>
                             <ul class="skills__data">
-                                <li class="skills__name">
-                                    <span class="skills__circle"></span>Reactjs (tsx)
-                                </li>
                                 <li class="skills__name">
                                     <span class="skills__circle"></span>Next.js
                                 </li>
@@ -187,7 +184,7 @@
                                     <span class="skills__circle"></span>Mysql
                                 </li>
                                 <li class="skills__name">
-                                    <span class="skills__circle"></span>Postgres Sql
+                                    <span class="skills__circle"></span>Postgre Sql
                                 </li>
                             </ul>
                         </div>
@@ -207,19 +204,30 @@
                                 </div>
                                 <div class="experience__data bd-grid">
                                     <h3 class="experience__title">Developer Full Stack</h3>
-                                    <span class="experience__company">De 2021 to 2022 | Ingenio Online</span>
-                                    <p class="experience__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia soluta harum minima amet laboriosam incidunt corrupti voluptate molestiae, veritatis numquam!</p>
+                                    <span class="experience__company">De 2020 to 2021 | 100% Tecnico</span>
+                                    <p class="experience__description">Desarrollo de un Modula de Gestion de importaciones, con el siguiente Stack de tecnologias (Php,Jquery,Bootstrap,Mysql,Apache).
+                                    </p>
                                 </div>
                             </div>
                             <div class="experience__content">
                                 <div class="experience__time">
                                     <span class="experience__rounder"></span>
-                                    
+                                    <span class="experience__line"></span>
                                 </div>
                                 <div class="experience__data bd-grid">
                                     <h3 class="experience__title">Developer Full Stack</h3>
-                                    <span class="experience__company">De 2020 to 2021 | 100% Tecnico</span>
-                                    <p class="experience__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia soluta harum minima amet laboriosam incidunt corrupti voluptate molestiae, veritatis numquam!</p>
+                                    <span class="experience__company">De 2021 to 2022 | Ingenio Online</span>
+                                    <p class="experience__description">Desarrollo de una plataforma online "ingenio languages",con el siguiente stack tecnologias (Reactjs,Nodejs,Mongodb,Nginx,Api CloudDinnary,Api Google Auth). conectada a Paypal y Datafast para la pasarela de pagos.</p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Developer Full Stack</h3>
+                                    <span class="experience__company">De 2021 to 2022 | Ingenio Online</span>
+                                    <p class="experience__description">Desarrollo de una plataforma de Agendamiento "Ingenio Calendar", el cual se uso el siguiente Stack de tecnologias (Nextjs,PostgreSql,Mongodb,Api Google Calendar).</p>
                                 </div>
                             </div>
                         </div>
@@ -232,11 +240,11 @@
 
                     <!--========== REFERENCES ==========-->
                     <section class="references section" id="references">
-                        <h2 class="section__title">Referencias</h2>
+                        <h2 class="section-title">Referencias</h2>
                         <div class="references__container bd-grid">
                             <div class="references__content bd-grid">
                                 <span class="references__subtitle">Ing. Director</span>
-                                <h3 class="references__title">Ing. Franciso Xavier Almeida</h3>
+                                <h3 class="references__title">Ing. Francisco  Almeida</h3>
                                 <ul class="references__contact">
                                     <li>Phone: +593 994-835-441</li>
                                     <li>Email: cienporcientotecnico@gmail.com</li>
@@ -246,7 +254,7 @@
                                 <span class="references__subtitle">Sr. Director</span>
                                 <h3 class="references__title">Lic. Wilson Cisneros</h3>
                                 <ul class="references__contact">
-                                    <li>Phone: +593 994-835-441</li>
+                                    <li>Phone: +593 939-418-502</li>
                                     <li>Email: admin@ingenioonline.com</li>
                                 </ul>
                             </div>
@@ -255,7 +263,7 @@
 
                     <!--========== LANGUAGES ==========-->
                     <section class="languages section">
-                        <h2 class="section--title">Idiomas</h2>
+                        <h2 class="section-title">Idiomas</h2>
                         <div class="languages__container">
                             <ul class="languages__content bd-grid">
                                 <li class="languages__name">
@@ -272,7 +280,7 @@
                     
                     <!--========== INTERESTS ==========-->
                     <section class="interests section">
-                        <h2 class="section--title">Intereses</h2>
+                        <h2 class="section-title">Intereses</h2>
                         <div class="interests__container bd-grid">
                             <div class="interests__content">
                                 <i class='bx bx-headphone interests__icon'></i>
