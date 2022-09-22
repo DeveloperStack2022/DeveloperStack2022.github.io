@@ -114,6 +114,10 @@ body.scale-cv{
   width: 90px;
   height: 90px;
 }
+.scale-cv .home__user{
+  font-size:6rem;
+  
+}
 .scale-cv .home__container{
   gap:1.5rem;
 }
@@ -311,8 +315,12 @@ img{
  
   justify-self: center;
   margin-bottom: var(--mb-1);
-
 }
+.home__user{
+  font-size:7rem;
+  margin-bottom: var(--mb-1);
+}
+
 .home__title{
   font-size: var(--h1-font-size);
 }
