@@ -113,6 +113,7 @@ body.scale-cv{
 .scale-cv .home__img{
   width: 90px;
   height: 90px;
+  background-size: cover;
 }
 .scale-cv .home__user{
   font-size:6rem;
@@ -312,7 +313,6 @@ img{
   width: 120px;
   height: 120px;
   border-radius: 50%;
- 
   justify-self: center;
   margin-bottom: var(--mb-1);
 }
